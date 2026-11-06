@@ -1,0 +1,7 @@
+{
+  "name": "corpusiq-competitor-scout",
+  "description": "Test a competitor's public claims against your own measured numbers.",
+  "version": "1.0.0",
+  "author": { "name": "CorpusIQ", "url": "https://www.corpusiq.io" },
+  "homepage": "https://www.corpusiq.io"
+}

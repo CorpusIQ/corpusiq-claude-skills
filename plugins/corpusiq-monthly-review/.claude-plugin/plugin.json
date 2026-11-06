@@ -1,0 +1,7 @@
+{
+  "name": "corpusiq-monthly-review",
+  "description": "One blended monthly close across billing, accounting, store and analytics sources.",
+  "version": "1.0.0",
+  "author": { "name": "CorpusIQ", "url": "https://www.corpusiq.io" },
+  "homepage": "https://www.corpusiq.io"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "corpusiq",
+  "owner": {
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "metadata": {
+    "description": "Claude skills that ground business answers in the user's own connected data sources instead of public guesses.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "corpusiq-truth-layer",
+      "source": "./plugins/corpusiq-truth-layer",
+      "description": "Ground every business number in a connected source with a citation, or label it unknown."
+    },
+    {
+      "name": "corpusiq-investor-pack",
+      "source": "./plugins/corpusiq-investor-pack",
+      "description": "Pitch deck and investor emails built from the founder's real metrics, not public templates."
+    },
+    {
+      "name": "corpusiq-competitor-scout",
+      "source": "./plugins/corpusiq-competitor-scout",
+      "description": "Test a competitor's public claims against your own measured numbers."
+    },
+    {
+      "name": "corpusiq-monthly-review",
+      "source": "./plugins/corpusiq-monthly-review",
+      "description": "One blended monthly close across billing, accounting, store and analytics sources."
+    }
+  ]
+}
